@@ -3,9 +3,9 @@ import "./Header.css"
 
 const Header = () => {
   return (
-    <div className="App">
-   
-    </div>
+    <header className="App">
+      <h1>Science News Reader</h1>
+    </header>
   );
 }
 
