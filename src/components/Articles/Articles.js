@@ -1,9 +1,14 @@
 import React from 'react'
-import ArticleCard from '../ArticleCard/ArticleCard';
+import ArticleCard from '../ArticleCard/ArticleCard'
 import "./Articles.css"
 
-const Articles = ({ articles }) => {
-  const articleList = articles.map(article => {
+const Articles = ({ articles, searchResults, foundSearchResults }) => {
+
+  const listSetter = (bool, original, results) => {
+    return !bool ? original : results
+  }
+
+  const articleList = listSetter(foundSearchResults, articles, searchResults).map(article => {
     const {id, title, multimedia} = article
     return (
       <ArticleCard 

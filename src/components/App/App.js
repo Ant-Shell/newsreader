@@ -6,10 +6,12 @@ import Articles from "../Articles/Articles"
 import SingleArticle from "../SingleArticle/SingleArticle"
 import NotFound from '../NotFound/NotFound'
 import Footer from "../Footer/Footer"
-import './App.css';
+import './App.css'
 
 const App = () => {
   const [articles, setArticles] = useState([])
+  const [searchResults, setSearchResults] = useState([])
+  const [foundSearchResults, setfoundSearchResults] = useState(false)
   const [errorMsg, setErrorMsg] = useState('')
 
   useEffect(() => {
@@ -28,6 +30,17 @@ const App = () => {
     }
   }
 
+  const searchArticles = (input) => {
+    const locateArticle = articles.filter(article => article.title.toUpperCase().includes(input.toUpperCase()))
+    if(!input || !locateArticle.length) {
+      setSearchResults([])
+      setfoundSearchResults(false)
+    } else {
+      setSearchResults(locateArticle)
+      setfoundSearchResults(true)
+    }
+  }
+
   const Article = () => {
     let params = useParams()
     return <SingleArticle id={params.id} findSingleArticle={findSingleArticle}/>
@@ -36,11 +49,22 @@ const App = () => {
 
   return (
     <main className="app">
-      <Header />
+      <Header 
+        searchArticles={searchArticles} 
+        foundSearchResults={foundSearchResults}
+      />
       {errorMsg ? <p>An error has occured</p> : null}
       {!articles.length ? <p>Loading ...</p> : null}
       <Routes>
-        <Route path="/" element={<Articles articles={articles}/>}/>
+        <Route 
+          path="/" 
+          element={
+          <Articles 
+            articles={articles} 
+            searchResults={searchResults}
+            foundSearchResults={foundSearchResults}
+            />
+          }/>
         <Route path=":id" element={<Article />} />
         <Route path="*" element={<NotFound />}/>
       </Routes>
@@ -49,4 +73,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default App
