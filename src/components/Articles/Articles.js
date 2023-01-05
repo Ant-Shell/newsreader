@@ -12,6 +12,7 @@ const Articles = ({ articles }) => {
         subsection={subsection}
         title={title}
         mulitmedia={mutimedia}
+        key={id}
       />
     )
   })
