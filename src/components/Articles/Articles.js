@@ -4,12 +4,10 @@ import "./Articles.css"
 
 const Articles = ({ articles }) => {
   const articleList = articles.map(article => {
-    const {id, section, subsection, title, multimedia} = article
+    const {id, title, multimedia} = article
     return (
       <ArticleCard 
         id={id}
-        section={section}
-        subsection={subsection}
         title={title}
         multimedia={multimedia}
         key={id}
