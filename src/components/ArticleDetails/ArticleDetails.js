@@ -1,11 +1,21 @@
 import React from 'react'
 import "./ArticleDetails.css"
 
-const ArticleDetails = () => {
+const ArticleDetails = ({ singleArticle }) => {
+  const {section, subsection, title, abstract, url, byline,
+        published_date, multimedia} = singleArticle
+
   return (
-    <div>
-   
-    </div>
+    <section className='details-container'>
+      <h2>{title}</h2>
+      <p>{byline}</p>
+      <p>{abstract}</p>
+      <p>Section: {section}</p>
+      {subsection ? <p>Topic: {subsection}</p> : null}
+      <p>Publish Date: {published_date}</p>
+      <p>For more information, please <a href={url} target="_blank" rel="noopener noreferrer">click here</a>.</p>
+      {/* <img src={multimedia[0].url} alt={multimedia[0].caption}/> */}
+    </section>
   );
 }
 
