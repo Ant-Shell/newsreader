@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { Routes, Route } from 'react-router-dom'
 import {getArticles} from "../../utilities/apiCalls"
 import Header from "../Header/Header"
 import Articles from "../Articles/Articles"
@@ -19,7 +20,9 @@ const App = () => {
       <Header />
       {errorMsg ? <p>An error has occured</p> : null}
       {!articles.length ? <p>Loading ...</p> : null}
-      <Articles articles={articles}/>
+      <Routes>
+        <Route path="/" element={<Articles articles={articles}/>}/>
+      </Routes>
       <Footer />
     </main>
   );
