@@ -4,7 +4,7 @@ import "./ArticleCard.css"
 
 const ArticleCard = ({ id, section, subsection, title, multimedia}) => {
   return (
-    <Link to={`/${id}`}>
+    <Link to={`${id}`}>
     <div className='card'>
       <p>{title}</p>
       <p>Section: {section}</p>

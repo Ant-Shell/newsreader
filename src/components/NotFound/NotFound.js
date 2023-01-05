@@ -5,7 +5,7 @@ const NotFound = () => {
   return (
     <div>
       <h2>
-        {`Sorry, this page was not found\nPlease try again.`}
+        {`Sorry, this page was not found.`}
       </h2>
     </div>
   )

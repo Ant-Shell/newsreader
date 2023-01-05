@@ -17,10 +17,22 @@ const App = () => {
     .then(formattedData => setArticles(formattedData))
   },[])
 
+  const findSingleArticle = (id, stateHandler, errorHandler) => {
+    const singleArticle = articles.find(article => article.id === id)
+
+    if (!singleArticle) {
+      errorHandler(true)
+    } else {
+      errorHandler(false)
+      stateHandler(singleArticle)
+    }
+  }
+
   const Article = () => {
     let params = useParams()
-    return <SingleArticle id={params.id}/>
+    return <SingleArticle id={params.id} findSingleArticle={findSingleArticle}/>
   }
+
 
   return (
     <main className="app">
@@ -30,6 +42,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Articles articles={articles}/>}/>
         <Route path=":id" element={<Article />} />
+        <Route path="*" element={<NotFound />}/>
       </Routes>
       <Footer />
     </main>
