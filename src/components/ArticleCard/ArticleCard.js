@@ -1,10 +1,12 @@
 import React from 'react'
 import "./ArticleCard.css"
 
-const ArticleCard = () => {
+const ArticleCard = ({ section, subsection, title, multimedia}) => {
   return (
-    <div className="App">
-   
+    <div className='card'>
+      <h2>{title}</h2>
+      <p>{section}</p>
+      <p>{subsection}</p>
     </div>
   );
 }

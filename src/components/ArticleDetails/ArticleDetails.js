@@ -3,7 +3,7 @@ import "./ArticleDetails.css"
 
 const ArticleDetails = () => {
   return (
-    <div className="App">
+    <div>
    
     </div>
   );

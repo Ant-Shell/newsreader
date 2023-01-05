@@ -1,10 +1,13 @@
 import React, {useState, useEffect} from 'react'
 import {getArticles} from "../../utilities/apiCalls"
+import Header from "../Header/Header"
+import Articles from "../Articles/Articles"
+import Footer from "../Footer/Footer"
 import './App.css';
 
 const App = () => {
-  const [articles, setArticles] = useState([]) // pass as prop
-  const [errorMsg, setErrorMsg] = useState('') // render error somewhere
+  const [articles, setArticles] = useState([])
+  const [errorMsg, setErrorMsg] = useState('')
 
   useEffect(() => {
     getArticles('science', setErrorMsg)
@@ -13,7 +16,11 @@ const App = () => {
 
   return (
     <main className="app">
-   
+      <Header />
+      {errorMsg ? <p>An error has occured</p> : null}
+      {!articles.length ? <p>Loading ...</p> : null}
+      <Articles articles={articles}/>
+      <Footer />
     </main>
   );
 }
