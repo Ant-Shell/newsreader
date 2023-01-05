@@ -5,7 +5,7 @@ import "./SingleArticle.css"
 
 const SingleArticle = ({ id, findSingleArticle }) => {
   const [singleArticle, setSingleArticle] = useState({})
-  const [error, setError] = useState(Boolean)
+  const [error, setError] = useState(false)
 
   useEffect(() => {
     findSingleArticle(id, setSingleArticle, setError)
