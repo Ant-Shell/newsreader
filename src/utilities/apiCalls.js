@@ -16,7 +16,7 @@ const getArticles = async (section, errorHandler) => {
       const { section, subsection, title, abstract, url, byline,
               published_date, multimedia } = dataValue
 
-      return {id: (index-1), section: section, subsection: subsection, title: title, abstract: abstract,
+      return {id: (index-1).toString(), section: section, subsection: subsection, title: title, abstract: abstract,
               url:url, byline: byline, published_date: published_date, multimedia: multimedia}
     })
 
