@@ -1,13 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./ArticleCard.css"
 
-const ArticleCard = ({ section, subsection, title, multimedia}) => {
+const ArticleCard = ({ id, section, subsection, title, multimedia}) => {
   return (
+    <Link to={`/${id}`}>
     <div className='card'>
-      <h2>{title}</h2>
-      <p>{section}</p>
-      <p>{subsection}</p>
+      <p>{title}</p>
+      <p>Section: {section}</p>
+      {subsection ? <p>Topic: {subsection}</p> : null}
+      {/* <img className="image" src={multimedia[1].url} alt={multimedia[1].caption} /> */} {/* Should be background - fix this later */}
     </div>
+    </Link>
   );
 }
 

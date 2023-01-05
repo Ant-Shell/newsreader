@@ -14,10 +14,10 @@ const getArticles = async (section, errorHandler) => {
 
     const formattedData = data.results.map((dataValue, index) => {
       const { section, subsection, title, abstract, url, byline,
-              published_date, mulitmedia } = dataValue
+              published_date, multimedia } = dataValue
 
-      return {id: index, section: section, subsection: subsection, title: title, abstract: abstract,
-              url:url, byline: byline, published_date: published_date, mulitmedia: mulitmedia}
+      return {id: (index-1), section: section, subsection: subsection, title: title, abstract: abstract,
+              url:url, byline: byline, published_date: published_date, multimedia: multimedia}
     })
 
     return formattedData.slice(2)

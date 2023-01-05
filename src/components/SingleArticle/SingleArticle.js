@@ -3,8 +3,8 @@ import "./SingleArticle.css"
 
 const SingleArticle = () => {
   return (
-    <div className="App">
-   
+    <div className="single-article-container">
+      <p>Hello, this is a test.</p>
     </div>
   );
 }
