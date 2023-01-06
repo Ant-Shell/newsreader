@@ -56,6 +56,14 @@ This project was to simulate a take home challenge, with the expectation of only
 - Clicking articles for additional information
 - Search functionality
 
+## Planning Documents
+
+- Wireframe
+<img width="641" alt="Screenshot 2023-01-05 at 7 56 54 PM" src="https://user-images.githubusercontent.com/100455148/210921059-6f1dd3d1-d22d-40d4-980b-758318519096.png">
+
+- Component Archetecture
+<img width="1059" alt="Screenshot 2023-01-05 at 7 58 03 PM" src="https://user-images.githubusercontent.com/100455148/210921109-12e5ddda-1c89-4a89-ac2b-af29d5c8d0bb.png">
+
 ## API Used
 
 * [The New York Times](https://developer.nytimes.com/)
