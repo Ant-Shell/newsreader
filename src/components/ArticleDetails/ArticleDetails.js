@@ -4,7 +4,6 @@ import "./ArticleDetails.css"
 const ArticleDetails = ({ singleArticle }) => {
   const {section, subsection, title, abstract, url, byline,
         published_date, multimedia} = singleArticle
-
   return (
     <section className='details-container' data-cy="details-container">
       <h2>{title}</h2>
@@ -14,7 +13,7 @@ const ArticleDetails = ({ singleArticle }) => {
       {subsection ? <p>Topic: {subsection}</p> : null}
       <p>Publish Date: {published_date}</p>
       <p>For more information, please <a href={url} target="_blank" rel="noopener noreferrer">click here</a>.</p>
-      {/* <img src={multimedia[0].url} alt={multimedia[0].caption}/> */}
+      {multimedia ? <img src={multimedia['0'].url} alt={multimedia['0'].caption}></img> : null}
     </section>
   );
 }
