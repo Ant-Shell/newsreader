@@ -12,7 +12,7 @@ const SingleArticle = ({ id, findSingleArticle }) => {
   },[id, findSingleArticle])
 
   return (
-    <div className="single-article-container">
+    <div className="single-article-container" data-cy="single-article-container">
       { error ? <NotFound />
       : <ArticleDetails singleArticle={singleArticle}/>}
     </div>

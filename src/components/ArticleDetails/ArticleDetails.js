@@ -6,7 +6,7 @@ const ArticleDetails = ({ singleArticle }) => {
         published_date, multimedia} = singleArticle
 
   return (
-    <section className='details-container' dat-cy="details-container">
+    <section className='details-container' data-cy="details-container">
       <h2>{title}</h2>
       <p>{byline}</p>
       <p>{abstract}</p>
