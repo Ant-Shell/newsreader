@@ -1,0 +1,130 @@
+{
+  "data": [
+    {
+     "id": "001",
+     "section": "science",
+     "subsection": "space",
+     "title": "Attack of the Clones",
+     "abstract": "Look out, the clones are coming!",
+     "url": "https://www.clonesattack.com",
+     "byline": "By George Lucas",
+     "published_date": "2002-05-16",
+     "multimedia": [
+      {
+        "url": "https://images.tbs.com/tbs/w_1800/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F04%2FAttack-of-the-Clones_1600x900.jpg",
+        "format": "Super Jumbo",
+        "height": 2048,
+        "width": 2048,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "clones attack",
+        "copyright": "George Lucas"
+        },
+        {
+        "url": "https://images.tbs.com/tbs/w_1800/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F04%2FAttack-of-the-Clones_1600x900.jpg",
+        "format": "threeByTwoSmallAt2X",
+        "height": 400,
+        "width": 600,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "clones attack",
+        "copyright": "George Lucas"
+        },
+        {
+        "url": "https://images.tbs.com/tbs/w_1800/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F04%2FAttack-of-the-Clones_1600x900.jpg",
+        "format": "Large Thumbnail",
+        "height": 150,
+        "width": 150,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "clones attack",
+        "copyright": "George Lucas"
+        }
+      ]
+      },
+      {
+        "id": "002",
+        "section": "science",
+        "subsection": "space",
+        "title": "Mars Attacks",
+        "abstract": "Look out, the Martians are coming!",
+        "url": "https://www.martiansattack.com",
+        "byline": "By Tim Burton",
+        "published_date": "1996-12-13",
+        "multimedia": [
+         {
+           "url": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/01/mars-attacks-martians-social.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+           "format": "Super Jumbo",
+           "height": 2048,
+           "width": 2048,
+           "type": "image",
+           "subtype": "photo",
+           "caption": "mars attacks",
+           "copyright": "Tim Burton"
+           },
+           {
+           "url": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/01/mars-attacks-martians-social.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+           "format": "threeByTwoSmallAt2X",
+           "height": 400,
+           "width": 600,
+           "type": "image",
+           "subtype": "photo",
+           "caption": "mars attacks",
+           "copyright": "Tim Burton"
+           },
+           {
+           "url": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/01/mars-attacks-martians-social.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+           "format": "Large Thumbnail",
+           "height": 150,
+           "width": 150,
+           "type": "image",
+           "subtype": "photo",
+           "caption": "mars attacks",
+           "copyright": "Tim Burton"
+          }
+        ]
+         },
+         {
+          "id": "003",
+          "section": "science",
+          "subsection": "space",
+          "title": "Attack of the Killer Tomatoes",
+          "abstract": "Look out, the tomatoes are coming!",
+          "url": "https://www.tomatoesattack.com",
+          "byline": "By John DeBello, Costa Dillon and Stephen Peace",
+          "published_date": "2002-05-16",
+          "multimedia": [
+           {
+             "url": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-18-at-1.28.49-PM.jpg?w=1077&ssl=1",
+             "format": "Super Jumbo",
+             "height": 2048,
+             "width": 2048,
+             "type": "image",
+             "subtype": "photo",
+             "caption": "tomatoes attack",
+             "copyright": "John DeBello"
+             },
+             {
+             "url": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-18-at-1.28.49-PM.jpg?w=1077&ssl=1",
+             "format": "threeByTwoSmallAt2X",
+             "height": 400,
+             "width": 600,
+             "type": "image",
+             "subtype": "photo",
+             "caption": "tomatoes attack",
+             "copyright": "John DeBello"
+             },
+             {
+             "url": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-18-at-1.28.49-PM.jpg?w=1077&ssl=1",
+             "format": "Large Thumbnail",
+             "height": 150,
+             "width": 150,
+             "type": "image",
+             "subtype": "photo",
+             "caption": "tomatoes attack",
+             "copyright": "John DeBello"
+          }
+      ]
+    }
+  ]
+}

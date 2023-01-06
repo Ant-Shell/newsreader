@@ -1,0 +1,44 @@
+{
+  "data": {
+    "id": "001",
+    "section": "science",
+    "subsection": "space",
+    "title": "Attack of the Clones",
+    "abstract": "Look out, the clones are coming!",
+    "url": "https://www.clonesattack.com",
+    "byline": "By George Lucas",
+    "published_date": "2002-05-16",
+    "multimedia": [
+     {
+       "url": "https://images.tbs.com/tbs/w_1800/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F04%2FAttack-of-the-Clones_1600x900.jpg",
+       "format": "Super Jumbo",
+       "height": 2048,
+       "width": 2048,
+       "type": "image",
+       "subtype": "photo",
+       "caption": "clones attack",
+       "copyright": "George Lucas"
+       },
+       {
+       "url": "https://images.tbs.com/tbs/w_1800/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F04%2FAttack-of-the-Clones_1600x900.jpg",
+       "format": "threeByTwoSmallAt2X",
+       "height": 400,
+       "width": 600,
+       "type": "image",
+       "subtype": "photo",
+       "caption": "clones attack",
+       "copyright": "George Lucas"
+       },
+       {
+       "url": "https://images.tbs.com/tbs/w_1800/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F04%2FAttack-of-the-Clones_1600x900.jpg",
+       "format": "Large Thumbnail",
+       "height": 150,
+       "width": 150,
+       "type": "image",
+       "subtype": "photo",
+       "caption": "clones attack",
+       "copyright": "George Lucas"
+       }
+     ]
+  }
+}
