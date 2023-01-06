@@ -22,7 +22,7 @@ const SearchField = ({ searchArticles, foundSearchResults }) => {
           type="text"
           placeholder='Search Articles'
           name='search'
-          cy-data="search"
+          data-cy="search"
           value={input}
           onChange={(e) => searchAction(e.target.value)}
         />
