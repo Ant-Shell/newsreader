@@ -4,8 +4,8 @@ import "./Header.css"
 
 const Header = ({ searchArticles, foundSearchResults }) => {
   return (
-    <header className="header">
-      <h1 className='banner'>Science News Reader</h1>
+    <header className="header" data-cy="header">
+      <h1 className='banner' data-cy="banner">Science News Reader</h1>
       <div className='search-container'>
         <SearchField 
           searchArticles={searchArticles}

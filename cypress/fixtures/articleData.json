@@ -1,0 +1,277 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 The New York Times Company. All Rights Reserved.",
+  "section": "Science",
+  "last_updated": "2023-01-04T12:02:06-05:00",
+  "num_results": 27,
+  "results": [
+      {
+          "section": "science",
+          "subsection": "",
+          "title": "Sign Up for the Science Times Newsletter",
+          "abstract": "Every week, we’ll bring you stories that capture the wonders of the human body, nature and the cosmos.",
+          "url": "null",
+          "uri": "nyt://embeddedinteractive/daba9d03-29b8-5cfc-8cbd-74b8abf54a07",
+          "byline": "",
+          "item_type": "EmbeddedInteractive",
+          "updated_date": "2018-04-07T13:23:25-04:00",
+          "created_date": "2016-02-05T18:18:53-05:00",
+          "published_date": "2016-02-05T18:18:53-05:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2016/02/06/science/sciencenewsletter2/sciencenewsletter2-superJumbo.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1534,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "NASA, via Associated Press"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2016/02/06/science/sciencenewsletter2/sciencenewsletter2-mediumThreeByTwo440.jpg",
+                  "format": "mediumThreeByTwo440",
+                  "height": 293,
+                  "width": 440,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "NASA, via Associated Press"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2016/02/06/science/sciencenewsletter2/sciencenewsletter2-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "NASA, via Associated Press"
+              }
+          ],
+          "short_url": ""
+      },
+      {
+          "section": "admin",
+          "subsection": "",
+          "title": "",
+          "abstract": "",
+          "url": "",
+          "uri": "nyt://embeddedinteractive/6cb185ed-65ac-50a5-ace3-5bab81934245",
+          "byline": "",
+          "item_type": "EmbeddedInteractive",
+          "updated_date": "2015-07-20T13:45:03-04:00",
+          "created_date": "2015-04-16T14:13:18-04:00",
+          "published_date": "2015-04-16T14:13:18-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": null,
+          "short_url": ""
+      },
+      {
+          "section": "climate",
+          "subsection": "",
+          "title": "Biden Administration Moves to Tighten Limits on Deadly Air Pollution",
+          "abstract": "A new rule would, for the first time in a decade, reduce emissions of soot that disproportionately harm communities of color.",
+          "url": "https://www.nytimes.com/2023/01/06/climate/epa-soot-pollution-biden.html",
+          "uri": "nyt://article/519058b0-2995-57db-a42e-611a8c0162ca",
+          "byline": "By Coral Davenport",
+          "item_type": "Article",
+          "updated_date": "2023-01-06T11:03:11-05:00",
+          "created_date": "2023-01-06T10:00:11-05:00",
+          "published_date": "2023-01-06T10:00:11-05:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Global Warming",
+              "Greenhouse Gas Emissions",
+              "Air Pollution",
+              "United States Politics and Government",
+              "United States Economy",
+              "Black People",
+              "Regulation and Deregulation of Industry",
+              "Minorities",
+              "Clean Air Act"
+          ],
+          "org_facet": [
+              "Environmental Protection Agency"
+          ],
+          "per_facet": [
+              "Biden, Joseph R Jr",
+              "Regan, Michael S (1976- )"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2023/01/06/multimedia/06cli-airpollution-1-0884/06cli-airpollution-1-0884-superJumbo.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The new measure would target fine particulate matter, minuscule pollution that comes from smokestacks, power plants and other industrial activity.",
+                  "copyright": "Todd Heisler/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/01/06/multimedia/06cli-airpollution-1-0884/06cli-airpollution-1-0884-threeByTwoSmallAt2X.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The new measure would target fine particulate matter, minuscule pollution that comes from smokestacks, power plants and other industrial activity.",
+                  "copyright": "Todd Heisler/The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/01/06/multimedia/06cli-airpollution-1-0884/06cli-airpollution-1-0884-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The new measure would target fine particulate matter, minuscule pollution that comes from smokestacks, power plants and other industrial activity.",
+                  "copyright": "Todd Heisler/The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/3VRT3kr"
+      },
+      {
+          "section": "science",
+          "subsection": "",
+          "title": "These Engineers Want to Build Conscious Robots. Others Say It's a Bad Idea.",
+          "abstract": "The pursuit of robot consciousness may be humankind’s next moonshot. But it comes with a slurry of difficult questions.",
+          "url": "https://www.nytimes.com/2023/01/06/science/robots-artificial-intelligence-consciousness.html",
+          "uri": "nyt://article/3d66ec0b-287b-5776-9879-168050613eb8",
+          "byline": "By Oliver Whang",
+          "item_type": "Article",
+          "updated_date": "2023-01-06T12:01:11-05:00",
+          "created_date": "2023-01-06T09:30:24-05:00",
+          "published_date": "2023-01-06T09:30:24-05:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Robots and Robotics",
+              "internal-sub-only",
+              "Artificial Intelligence",
+              "Animals",
+              "Philosophy",
+              "Animal Cognition",
+              "Evolution (Biology)",
+              "Computers and the Internet",
+              "your-feed-science"
+          ],
+          "org_facet": [
+              "Cognition (Journal)",
+              "Columbia University",
+              "Science Robotics (Journal)"
+          ],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2023/01/05/multimedia/00SCI-ROBOTSELF-promo-1-4bcc/00SCI-ROBOTSELF-promo-1-4bcc-superJumbo-v2.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1348,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Karsten Moran for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/01/05/multimedia/00SCI-ROBOTSELF-promo-1-4bcc/00SCI-ROBOTSELF-promo-1-4bcc-threeByTwoSmallAt2X-v2.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Karsten Moran for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/01/05/multimedia/00SCI-ROBOTSELF-promo-1-4bcc/00SCI-ROBOTSELF-promo-1-4bcc-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "Karsten Moran for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/3iioRRM"
+      },
+      {
+          "section": "health",
+          "subsection": "",
+          "title": "Damar Hamlin's Ability to Communicate Signals a 'Turning Point'",
+          "abstract": "The Buffalo Bills safety was on a good path for neurological recovery but might still face injuries to other organs, including his lungs.",
+          "url": "https://www.nytimes.com/2023/01/05/health/damar-hamlin-heart-brain-recovery-buffalo-bills.html",
+          "uri": "nyt://article/dbb9b8e3-4b33-5db5-96d4-8404ecda8a2e",
+          "byline": "By Gina Kolata",
+          "item_type": "Article",
+          "updated_date": "2023-01-06T11:48:24-05:00",
+          "created_date": "2023-01-05T18:03:48-05:00",
+          "published_date": "2023-01-05T18:03:48-05:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Sports Injuries",
+              "Football",
+              "Cardiopulmonary Resuscitation (CPR)",
+              "Lungs"
+          ],
+          "org_facet": [
+              "Buffalo Bills",
+              "National Football League"
+          ],
+          "per_facet": [
+              "Hamlin, Damar (1998- )"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2023/01/04/multimedia/04hamlin-heart-1-c7a3/04hamlin-heart-1-c7a3-superJumbo.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A candlelight vigil for Damar Hamlin outside the University of Cincinnati Medical Center, where he was receiving care, on Wednesday.",
+                  "copyright": "Jeff Dean/Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/01/04/multimedia/04hamlin-heart-1-c7a3/04hamlin-heart-1-c7a3-threeByTwoSmallAt2X.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A candlelight vigil for Damar Hamlin outside the University of Cincinnati Medical Center, where he was receiving care, on Wednesday.",
+                  "copyright": "Jeff Dean/Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2023/01/04/multimedia/04hamlin-heart-1-c7a3/04hamlin-heart-1-c7a3-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A candlelight vigil for Damar Hamlin outside the University of Cincinnati Medical Center, where he was receiving care, on Wednesday.",
+                  "copyright": "Jeff Dean/Getty Images"
+              }
+          ],
+          "short_url": "https://nyti.ms/3VNX21E"
+      }
+    ]
+  }
