@@ -28,6 +28,4 @@ describe('articles', () => {
     // target footer
     // verify fontent of footer
   })
-
-
 })
