@@ -11,7 +11,7 @@ const SearchField = ({ searchArticles, foundSearchResults }) => {
 
   const errorRender = () => {
     if (!foundSearchResults && input) {
-      return <p className="error-message" data-cy='not-found-message'>No Results Found.</p>
+      return <p className="error-message" data-cy='error-message'>No Results Found.</p>
     }
   }
 
@@ -22,6 +22,7 @@ const SearchField = ({ searchArticles, foundSearchResults }) => {
           type="text"
           placeholder='Search Articles'
           name='search'
+          cy-data="search"
           value={input}
           onChange={(e) => searchAction(e.target.value)}
         />
