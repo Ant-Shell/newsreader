@@ -7,6 +7,8 @@ describe('article details', () => {
   })
 
   it('has various news details', () => {
-    
+    // click card
+    // verify url change
+    // target container and verify contents
   })
 })

@@ -21,7 +21,7 @@ const Articles = ({ articles, searchResults, foundSearchResults }) => {
   })
 
   return (
-    <div className="article-container">
+    <div className="article-container" data-cy="article-container">
         {articleList}
     </div>
   );
